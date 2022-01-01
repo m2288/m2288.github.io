@@ -5,6 +5,60 @@ html, body, .grid-container {
     position: center;
 }
 
+#header {
+    border: 1px solid #b5b7ba;
+    background-color: rgb(89, 143, 161);
+    min-width: 1220px;
+    height: 40px;
+    gap: 20px 30px;
+    text-align: center;
+    padding-top: 18px;
+}
+
+#header #selected {
+    color: #000;
+}
+
+#center {
+    width: 1280px;
+    margin: 0 auto;
+}
+#bas_blok {
+    align-items: center;
+    margin: 0 auto;
+    gap: 20px 30px;
+}
+
+#header a {
+    color: #4d4d4d;
+    font-size: 20px;
+    font-weight: 100;
+    text-align: left;
+    text-decoration: none;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+}
+
+#header span {
+    padding: 0 38px;
+}
+
+footer {
+    min-height: 140px;
+    line-height: 140px;
+    background-color: #434445;
+    color: #a4a4a4;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+}
+
+#footer a {
+    color: inherit;
+}
+
+
 .grid-container {
     display: grid;
     position: center;
